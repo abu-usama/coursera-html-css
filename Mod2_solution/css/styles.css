@@ -10,11 +10,7 @@ h1{
 	font-size: 170%;
 }
 
-p{
-	padding: 20px;
-	padding-top: 20px;
-	
-}
+
 
 .container{
 	width: 100%;
@@ -25,9 +21,12 @@ p{
 	border: solid black 1px;
 	position: absolute;
 	right: 20px;
-	top: 20px;
-	font-size: 125%;
-	text-align: center;
+	top: 20px;	
+}
+.sec-title>p{
+  font-size: 125%;
+  text-align: center;
+  margin: 0px;
 }
 
 .section{
@@ -35,6 +34,8 @@ p{
 	margin: 0px;
 	border: 1px solid black;
 	color: lavender;
+  padding: 20px;
+  padding-top: 30px;
 }
 
 #Chicken{
@@ -52,7 +53,7 @@ p{
 
 #last-div{
   		margin-bottom: 40px;
-  	}
+}
 
 /* For Desktop version */
 @media	(min-width: 992px) {
